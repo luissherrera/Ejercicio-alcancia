@@ -1,3 +1,9 @@
+/* Realizado por Luis Eduardo Herrera
+Se realizo el codigo de una alcancia donde se van acumulando las monedas de varias demominaciones
+y se cuentan por medio de contadores llevando cuanto van y el total acumulado
+ */
+
+
 import java.util.Scanner;
 
 public class alcancia {
@@ -58,7 +64,7 @@ public class alcancia {
                     System.out.println("Total ahorrado: $" + total);
                     break;
                 case 4:
-                    System.out.println("Rompiendo la alcancía...");
+                    System.out.println("Rompiendo la alcancía..");
                     System.out.println("Monedas de $20: " + monedas20);
                     System.out.println("Monedas de $50: " + monedas50);
                     System.out.println("Monedas de $100: " + monedas100);
@@ -73,7 +79,7 @@ public class alcancia {
                     monedas100 = 0;
                     monedas200 = 0;
                     monedas500 = 0;
-                    System.out.println("Alcancía vaciada.");
+                    System.out.println("Alcancía vacia.");
                     break;
                 case 5:
                     System.out.println("Saliendo...");
